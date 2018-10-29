@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!--<EditText-->
+        <!--android:id="@+id/ETNum1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="28dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/ETNum2"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/ETNum2"-->
+        <!--tools:text="Enter number 1" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ETNum2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/TVResult"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/TVResult"-->
+        <!--tools:text="Enter number 2" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="66dp"-->
+        <!--android:onClick="Addition"-->
+        <!--android:text="Add"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/TVResult" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/TVResult"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="77dp"-->
+        <!--android:layout_marginLeft="77dp"-->
+        <!--android:layout_marginBottom="235dp"-->
+        <!--android:textSize="50dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <CheckBox
+        android:id="@+id/CBred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="146dp"
+        android:text="Red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/CBblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Blue"
+        app:layout_constraintStart_toStartOf="@+id/CBred"
+        app:layout_constraintTop_toBottomOf="@+id/CBred" />
+
+    <CheckBox
+        android:id="@+id/CBgreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Green"
+        app:layout_constraintStart_toStartOf="@+id/CBblue"
+        app:layout_constraintTop_toBottomOf="@+id/CBblue" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="55dp"
+        android:text="PRESSS"
+        app:layout_constraintStart_toStartOf="@+id/CBgreen"
+        app:layout_constraintTop_toBottomOf="@+id/CBgreen" />
+
+</android.support.constraint.ConstraintLayout>
